@@ -1,61 +1,40 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+📚 Projeto Book – Livraria Online
+O Projeto Book é uma aplicação web de uma livraria online desenvolvida com foco educacional durante a disciplina de Desenvolvimento Web II no curso de Desenvolvimento de Software Multiplataforma da Fatec Praia Grande. Com uma abordagem prática, o sistema foi projetado para simular uma livraria real, oferecendo funcionalidades completas para usuários e administradores, como visualização de livros, cadastro e login de usuários, envio de mensagens de contato, além de um painel administrativo com controle de produtos, usuários e mensagens. O projeto serviu como uma oportunidade para aplicar conceitos fundamentais de desenvolvimento web moderno utilizando o framework Laravel, explorando o padrão MVC, templates Blade, autenticação, sessões, rotas e integração com banco de dados MySQL.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+🎯 Objetivos do Projeto
+Aplicar na prática os conceitos de MVC, rotas, sessões, views dinâmicas e autenticação;
 
-## About Laravel
+Desenvolver um sistema funcional e organizado para gestão de livros, usuários e contatos;
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Explorar o uso de tecnologias modernas no desenvolvimento web.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+🔧 Funcionalidades Implementadas
+Layout padrão com Blade Template e navbar responsiva;
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Página inicial institucional e moderna;
 
-## Learning Laravel
+Página “Sobre” com apresentação da empresa fictícia;
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Exibição de livros com dados do banco de dados;
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Formulário de contato com armazenamento das mensagens;
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Login, cadastro e verificação de sessão;
 
-## Laravel Sponsors
+Dashboard com acesso restrito para administradores;
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Cadastro, edição e exclusão de produtos (livros);
 
-### Premium Partners
+Listagem e gerenciamento de usuários;
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+Gerenciamento de contatos, com opções de resposta e exclusão.
 
-## Contributing
+💻 Tecnologias Utilizadas
+PHP (Laravel)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Blade Templates
 
-## Code of Conduct
+HTML / CSS
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Banco de Dados MySQL
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
